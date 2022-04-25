@@ -33,3 +33,7 @@ I would like to thank all the people who gave me advice on my research and appli
 ---
 
 I am looking forward to my new life and study at EPFL~
+
+---
+
+P.S. I have an alias: "wind_like" because the pronunciation of my name 冯乙洋 (Feng Yiyang, family name is in the front) is similar to 风一样 (just like wind). I'm a wind-like person. 😂 Sometimes I add "2375" between "wind" and "like" because 2375 is the [GB 2312 code](https://en.wikipedia.org/wiki/GB_2312) for 冯 (Feng).
