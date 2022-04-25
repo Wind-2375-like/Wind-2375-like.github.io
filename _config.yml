@@ -83,7 +83,7 @@ author:
   name             : "Yiyang Feng"
   avatar           : "profile.jpg"
   bio              : "Undergrad"
-  location         : "Xi'an, Shaanxi"
+  # location         : "Xi'an, Shaanxi"
   employer         : "Xi'an Jiaotong University"
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   # googlescholar    : "http://yourfullgooglescholarurl.com"
