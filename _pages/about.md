@@ -8,9 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-Hi everyone~ I am Yiyang Feng (冯乙洋), an incoming master's student ([Master in Computer Science program](https://www.epfl.ch/schools/ic/education/master/computer-science/)) at [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/en/) (EPFL) and I will receive my B.S. degree of Automation at [Xi'an Jiaotong University](http://en.xjtu.edu.cn/) (XJTU) in July this year.
+Hi everyone~ I am Yiyang Feng (冯乙洋), an incoming master's student of École Polytechnique Fédérale de Lausanne ([MSCS@EPFL](https://www.epfl.ch/schools/ic/education/master/computer-science/)). I will receive my B.S. degree of Automation at [Xi'an Jiaotong University](http://en.xjtu.edu.cn/) (XJTU) in July this year.
 
-I love Natural Language Processing (NLP). Previously, I have worked on joint entity and relationship extraction, question answering systems, GNNs and their explainability for NLP, and text-to-SQL. I am interested in diving deeper and exploring more areas of NLP.
+I love Natural Language Processing (NLP). Previously, I have worked on following fields:
+
+- Joint entity and relationship extraction
+- Question answering systems
+- GNNs and their explainability for NLP
+- Text-to-SQL
+
+I am interested in diving deeper and exploring more areas of NLP. 😄
+
+---
 
 I would like to thank all the people who gave me advice on my research and application, especially:
 
@@ -20,5 +29,7 @@ I would like to thank all the people who gave me advice on my research and appli
 - Other students sharing information about the application and studying abroad: Hao Wang, Wenqing Wang, Yueming Zhu, Zhehao Gu, Yang Zhang, Yitao Shi, and Shiqi Xia.
 - My course project collaborators: Jie Cheng, Shiqi Xia, and Keli Deng.
 - My father and mother who support me in studying abroad.
+
+---
 
 I am looking forward to my new life and study at EPFL~
