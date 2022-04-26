@@ -24,11 +24,11 @@ I am interested in diving deeper and exploring more areas of NLP. 😄
 I would like to thank all the people who gave me advice on my research and application, especially:
 
 - Prof. [Rui Zhang](https://ryanzhumich.github.io/) who is my advisor during the summer internship at PSU NLP Lab: I am very fortunate to have such an **excellent** professor who cares about students and gives me insightful advice on my research.
-- Prof. [Xiaoming Liu](https://gr.xjtu.edu.cn/en/web/xm.liu) and [Zhongmin Cai](https://gr.xjtu.edu.cn/en/web/zmcai/english-version) who are my second and first research advisor: They give me the opportunity to know more about NLP and supporting me for studying abroad.
+- Prof. [Xiaoming Liu](https://gr.xjtu.edu.cn/en/web/xm.liu) and [Zhongmin Cai](https://gr.xjtu.edu.cn/en/web/zmcai/english-version) who are my second and first research advisor: They give me the opportunity to know more about NLP.
 - [Chengzu Li](https://www.linkedin.cn/incareer/in/chengzu-li-111762226?trk=public_profile_samename-profile) who is the collaborator of my second research project *Joint Entity and Relationship Extraction from Social Media Texts*: He also gives me many valuable suggestions on research and MSCS application.
 - Other students sharing information about research, studying abroad, and the application process: Hao Wang, Wenqing Wang, Yueming Zhu, Zhehao Gu, Yang Zhang, Yitao Shi, and Shiqi Xia.
 - My main collaborators of various course projects: Jie Cheng, Shiqi Xia, Keli Deng, Jinghan He, Hongxuan Yu, and Jianyu Duan.
-- My father and mother who support me in studying abroad.
+- My father and mother who support me for studying abroad.
 
 ---
 
