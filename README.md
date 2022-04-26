@@ -4,6 +4,16 @@
 
 [Browse](https://wind-2375-like.github.io)
 
+**Updated on Apr. 26, 2022**
+
+Finally the webpage looks like this:
+
+<img alt="图 1" src="https://cdn.jsdelivr.net/gh/Wind2375like/I-m_Ghost/img/7da102472da0c61aeb3d3efca8f23433be5e90252059c86eff872d040e1413ec.png" />  
+
+I managed to add a kanbanmuseum to the site.
+
+---
+
 Actually I wish nobody will see this readme. 😅
 
 ---
