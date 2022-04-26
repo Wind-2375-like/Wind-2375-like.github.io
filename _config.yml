@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 script:
-- src: https://cdn.jsdelivr.net/gh/wind-2375-like/live2d-widget@1.0.1/autoload.js # live2d
+- src: https://cdn.jsdelivr.net/gh/wind-2375-like/live2d-widget@1.0.4/autoload.js # live2d
 
 # Site Settings
 locale                   : "fr-CH"
