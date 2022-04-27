@@ -4,6 +4,12 @@
 
 [Browse](https://wind-2375-like.github.io)
 
+**Updated on Apr. 27, 2022**
+
+TODO:
+
+- [ ] schedule table
+
 **Updated on Apr. 26, 2022**
 
 Finally the webpage looks like this:
