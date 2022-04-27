@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi everyone~ I am Yiyang Feng (冯乙洋), an incoming computer science master's student of École Polytechnique Fédérale de Lausanne ([MSCS@EPFL](https://www.epfl.ch/schools/ic/education/master/computer-science/)). I will receive my B.S. degree of Automation at [Xi'an Jiaotong University](http://en.xjtu.edu.cn/) (XJTU) in July this year.
+Hi everyone~ I am Yiyang Feng (冯乙洋), an incoming computer science master's student of École Polytechnique Fédérale de Lausanne ([MSCS@EPFL](https://www.epfl.ch/schools/ic/education/master/computer-science/)). I will receive my B.S. degree of Automation at [Xi'an Jiaotong University](https://en.xjtu.edu.cn/) (XJTU) in July this year.
 
 I love Natural Language Processing (NLP)! Previously, I have worked on these fields:
 
