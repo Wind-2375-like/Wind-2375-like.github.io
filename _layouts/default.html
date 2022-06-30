@@ -11,20 +11,6 @@ layout: compress
     {% include head/custom.html %}
     <link rel="shortcut icon" type="image/x-icon" href="/o_220109025256_cat.png?">
     <script src="https://cdn.jsdelivr.net/gh/wind-2375-like/live2d-widget@1.1.0/autoload.js"></script>
-    
-    {* for post in site.posts *}
-        {* if post.stickie != true *}
-            {* continue *}
-        {* endif *}
-        <div>置顶文章细节</div>
-    {* endfor *}
-
-    {* for post in site.posts *}
-        {* if post.stickie == true *}
-            {* continue *}
-        {* endif *}
-        <div>普通文章细节</div>
-    {* endfor *}
   </head>
 
   <body>
