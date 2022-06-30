@@ -12,8 +12,11 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
         
-  - title: "Blog Posts (CN)"
+  - title: "Cnblogs Posts (obsolete)"
     url: https://www.cnblogs.com/wind2375like
+
+  - title: "Blog Posts"
+    url: /posts/
     
   - title: "CV"
     url: https://wind-2375-like.github.io/files/CV.pdf
