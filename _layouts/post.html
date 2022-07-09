@@ -1,0 +1,6 @@
+{% assign sorted = site.posts | sort: "stickiness" %}
+{% for post in sorted %}
+    {% if post.sticky %}
+        <span class="sticky"><i class="fa fa-thumb-tack" aria-hidden="true"></i></span>
+    {% endif %}
+{% endfor %}
