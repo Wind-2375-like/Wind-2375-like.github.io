@@ -1,3 +1,7 @@
+pre {
+    white-space: pre-wrap;
+}
+
 #waifu-toggle {
 	background-color: #fa0;
 	border-radius: 5px;

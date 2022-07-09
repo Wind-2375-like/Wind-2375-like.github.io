@@ -1,10 +1,10 @@
 {
 	"mouseover": [{
 		"selector": "#live2d",
-		"text": ["What are you doing? Get your hands off me >_<", "The mouse...the mouse is in the \nwrong place!", "Meow meow meow?", "(ノ≧∇≦)ノ", "o((>ω< ))o", "o(≧口≦)o", "Hentai!"]
+		"text": ["What are you doing? Get your hands off me >_<", "The mouse...the mouse is in the <br/>wrong place!", "Meow meow meow?", "(ノ≧∇≦)ノ", "o((>ω< ))o", "o(≧口≦)o", "Hentai!"]
 	}, {
 		"selector": "#waifu-tool .fa-comment",
-		"text": ["Guess what I'm going to say?", "I have heard a lot of life lessons \nfrom the Elder Frog. (-1s)"]
+		"text": ["Guess what I'm going to say?", "I have heard a lot of life lessons <br/>from the Elder Frog. (-1s)"]
 	}, {
 		"selector": "#waifu-tool .fa-paper-plane",
 		"text": ["Wanna a game?"]
@@ -84,7 +84,7 @@
 	}, {
 	}, {
 		"selector": "a[href^='https://github.com/Wind-2375-like']",
-		"text": ["I am a newbie to Github, \nbut he knows it (●'◡'●)", "Wanna see his Github?"]
+		"text": ["I am a newbie to Github, <br/>but he knows it (●'◡'●)", "Wanna see his Github?"]
 	}, {
 		"selector": "a[href^='/tags/']",
 		"text": ["要去看看 <span>{text}</span> 标签么？", "点它可以查看此标签下的所有文章哟！"]
@@ -184,7 +184,7 @@
 	}],
 	"click": [{
 		"selector": "#live2d",
-		"text": ["You...You accidentally touched it, \ndidn't you?", "Lolicon!", "Have you seen my little bear?", "I'll call the police if u touch me \nagain! ⌇●﹏●⌇", "Police, there's a hentai touching me (ó﹏ò｡)", "Don't touch me! I'll bite you \no(≧口≦)o", "There's nothing to touch!"]
+		"text": ["You...You accidentally touched it, <br/>didn't you?", "Lolicon!", "Have you seen my little bear?", "I'll call the police if u touch me <br/>again! ⌇●﹏●⌇", "Police, there's a hentai touching me (ó﹏ò｡)", "Don't touch me! I'll bite you <br/>o(≧口≦)o", "There's nothing to touch!"]
 	}, {
 		"selector": ".veditor",
 		"text": ["要吐槽些什么呢？", "一定要认真填写喵～", "有什么想说的吗？"]

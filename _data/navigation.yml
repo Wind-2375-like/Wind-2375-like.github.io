@@ -18,8 +18,8 @@ main:
   - title: "CV"
     url: https://wind-2375-like.github.io/files/CV.pdf
         
-  - title: "Cnblogs Posts (obsolete)"
-    url: https://www.cnblogs.com/wind2375like
+  # - title: "Cnblogs Posts (obsolete)"
+  #   url: https://www.cnblogs.com/wind2375like
     
   # - title: "Guide"
   #   url: /markdown/
