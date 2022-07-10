@@ -60,8 +60,6 @@ tags:
 - [3.5 Linear Transformations and Change of Basis 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145292.html)
 - [3.6 Left and Right Inverses; Pseudoinverse 阅读笔记 - WIND_LIKE 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145351.html)
 
-------
-
 <script src="https://utteranc.es/client.js"
     repo="Wind-2375-like/Wind-2375-like.github.io"
     issue-term="pathname"

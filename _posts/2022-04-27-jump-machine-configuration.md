@@ -50,7 +50,6 @@ Host TargetMachine
 ## On Vscode ssh
 
 <img alt="图 1" src="https://cdn.jsdelivr.net/gh/Wind2375like/I-m_Ghost/img/eb08724735e73e265359323e03c154bf6bf36ab01c3c163d22769a6e294bb875.png" />  
-------
 
 <script src="https://utteranc.es/client.js"
     repo="Wind-2375-like/Wind-2375-like.github.io"

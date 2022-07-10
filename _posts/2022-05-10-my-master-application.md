@@ -383,7 +383,6 @@ GGU 只是一般般, 但有的机构更是大坑, 事后看其他同学其他机
 <div style="display:none">
 抱怨 XJTU 太差解决不了什么问题, 我能做的只有 1. 尽可能写一点总结帮帮后来人并且劝说将要来 XJTU 的人三思而后行. 和 2. 逃离这个地方, 永远不要再回来.
 </div>
-------
 
 <script src="https://utteranc.es/client.js"
     repo="Wind-2375-like/Wind-2375-like.github.io"
