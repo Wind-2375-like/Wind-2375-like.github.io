@@ -22,6 +22,8 @@ tags:
 
 ## Content
 
+### Unit 1: Ax=B And The Four Subspaces
+
 - [1.1 The Geometry of Linear Equations 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/15813777.html)
 - [1.2 An Overview of Key Ideas 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/15813813.html)
 - [1.3 Elimination with Matrices 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/15815093.html)
@@ -35,6 +37,9 @@ tags:
 - [1.11 The Four Fundamental Subspaces 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/15924872.html)
 - [1.12 Matrix Spaces and Rank 1 Matrices 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145188.html)
 - [1.13 Graphs, Networks, Incidence Matrices 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145201.html)
+
+### Unit 2: Least Squares, Determinants And Eigenvalues
+
 - [2.1 Orthogonal Vectors and Subspaces 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145213.html)
 - [2.2 Projections onto Subspaces 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145216.html)
 - [2.3 Projection Matrices and Least Squares 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145221.html)
@@ -45,12 +50,15 @@ tags:
 - [2.8 Eigenvalues and Eigenvectors 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145254.html)
 - [2.9 Diagonalization and Powers of A 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145261.html)
 - [2.10 Geometric View of Eigenvalues and Eigenvectors 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145268.html)
+
+### Unit 3: Positive Definite Matrices and Applications
+
 - [3.1 Real Symmetric Matrices and Positive Definiteness 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145275.html)
 - [3.2 Complex Matrices and Fast Fourier Transform 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145278.html)
 - [3.3 Positive Definite Matrices and Similar Matrices 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145279.html)
 - [3.4 Singular Value Decomposition 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145282.html)
 - [3.5 Linear Transformations and Change of Basis 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145292.html)
-- [3.6 Left and Right Inverses; Pseudoinverse 阅读笔记 - WIND_LIKE - 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145351.html)
+- [3.6 Left and Right Inverses; Pseudoinverse 阅读笔记 - WIND_LIKE 博客园 (cnblogs.com)](https://www.cnblogs.com/wind2375like/p/16145351.html)
 ------
 
 <script src="https://utteranc.es/client.js"
