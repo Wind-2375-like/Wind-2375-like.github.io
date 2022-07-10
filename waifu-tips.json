@@ -84,7 +84,7 @@
 	}, {
 	}, {
 		"selector": "a[href^='https://github.com/Wind-2375-like']",
-		"text": ["I am a newbie to Github, <br/>but he knows it (●'◡'●)", "Wanna see his Github?"]
+		"text": ["Wanna see his Github? (●'◡'●)"]
 	}, {
 		"selector": "a[href^='/tags/']",
 		"text": ["要去看看 <span>{text}</span> 标签么？", "点它可以查看此标签下的所有文章哟！"]
