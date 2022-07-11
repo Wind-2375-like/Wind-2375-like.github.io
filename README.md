@@ -1,6 +1,6 @@
 # Readme
 
-> This is my personal webpage forked from [academic pages](https://github.com/academicpages/academicpages.github.io). I also add some elements from []().
+> This is my personal webpage forked from [academic pages](https://github.com/academicpages/academicpages.github.io). I also add some elements from [Rob Williams](https://jayrobwilliams.com/).
 
 [Browse](https://wind-2375-like.github.io)
 
@@ -8,6 +8,12 @@ TODO:
 
 - Build a dialogue system in the kanbanmuseum. (May never achieve)
 - Sticky posts.
+
+**Updated on Jul. 11, 2022**
+
+- Removed line numbers because of a weird bug of recursive code blocks.
+
+
 
 **Updated on Jul. 10, 2022**
 
