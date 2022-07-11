@@ -165,10 +165,10 @@ incremental: false
 kramdown:
   input: GFM
   # syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      # css_class: 'highlight'
-      line_numbers: true
+  # syntax_highlighter_opts:
+  #   block:
+  #     # css_class: 'highlight'
+  #     line_numbers: true
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
