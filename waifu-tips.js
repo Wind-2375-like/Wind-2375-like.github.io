@@ -158,8 +158,8 @@ function loadWidget(config) {
 			modelTexturesId = localStorage.getItem("modelTexturesId");
 		if (modelId === null) {
 			// 首次访问加载 指定模型 的 指定材质
-			modelId = 1; // 模型 ID
-			modelTexturesId = 53; // 材质 ID
+			modelId = 2; // 模型 ID
+			modelTexturesId = 23; // 材质 ID
 		}
 		// Parameter Fixed -> Tia/Knight
 		modelId = 2;
