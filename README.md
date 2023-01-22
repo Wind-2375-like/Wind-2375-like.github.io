@@ -6,6 +6,10 @@
 
 The blog is based on hexo + hexo-theme-fluid and it is deployed via github pages + hexo-deployer-git and modified to customize the domain name.
 
+Acknowledgment:
+
+Thanks for the [tutorial](http://ericwu.cn/2020/05/01/my-new-blog/) (written in Chinese)! It is really helpful.
+
 TODO:
 
 - Build a dialogue system in the kanbanmuseum. (May never achieve)
