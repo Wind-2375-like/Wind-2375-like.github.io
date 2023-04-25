@@ -8,12 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi everyone~ I am Yiyang Feng (冯乙洋), an incoming computer science master's student at École Polytechnique Fédérale de Lausanne ([MSCS@EPFL](https://www.epfl.ch/schools/ic/education/master/computer-science/)). I will receive my B.S. degree of Automation at [Xi'an Jiaotong University](https://en.xjtu.edu.cn/) (XJTU) in July this year.
+Hi everyone~ I am Yiyang Feng (冯乙洋), an MSc student in computer science at EPFL ([MSCS@EPFL](https://www.epfl.ch/schools/ic/education/master/computer-science/)). Previously, I received my B.S. degree in Automation at [Xi'an Jiaotong University](https://en.xjtu.edu.cn/) (XJTU) in July 2022.
 
-I love Natural Language Processing (NLP)! Previously, I have worked on these fields:
+I love Natural Language Processing (NLP)! Previously, I have worked in these fields:
 
-- Joint entity and relationship extraction
-- Question answering systems
+- Text Generation
 - GNNs and their explainability for NLP
 - Text-to-SQL
 
@@ -29,11 +28,5 @@ I would like to thank all the people who gave me advice on my research and appli
 - Prof. [Xiaoming Liu](https://gr.xjtu.edu.cn/en/web/xm.liu) who was my advisor on my second research project and [Zhongmin Cai](https://gr.xjtu.edu.cn/en/web/zmcai/english-version) who was my first research advisor: They gave me the opportunity to know more about NLP.
 - Other students sharing information about research, studying abroad, and the application process: Hao Wang, Wenqing Wang, Yueming Zhu, Zhehao Gu, Yang Zhang, Yitao Shi, and Shiqi Xia.
 - My main collaborators of various course projects: Jie Cheng, Shiqi Xia, Keli Deng, Jinghan He, Hongxuan Yu, and Jianyu Duan.
-
----
-
-I am looking forward to my new life and study at EPFL~
-
----
 
 P.S. I have an alias: "wind_like" because the pronunciation of my name 冯乙洋 (Feng Yiyang, family name is in the front) is similar to 风一样 (just like wind). I'm a wind-like person. 😂 Sometimes I add "2375" between "wind" and "like" because 2375 is the [GB 2312 code](https://en.wikipedia.org/wiki/GB_2312) for my family name 冯 (Feng).
