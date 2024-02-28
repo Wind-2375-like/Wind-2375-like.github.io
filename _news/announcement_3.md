@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-02-01
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I’m happy to share that I’m starting a new position as Research Assistant at [LIA](https://www.epfl.ch/labs/lia/) :tada:

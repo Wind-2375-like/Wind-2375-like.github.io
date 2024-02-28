@@ -1,26 +1,31 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: A student researcher keen on Natural Language Processing (NLP).
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: profile.jpg
+  image_circular: true # crops the image to make it circular
+#   more_info: >
+#     <p>555 your office number</p>
+#     <p>123 your address street</p>
+#     <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a second-year master's student in [Computer Science](https://www.epfl.ch/schools/ic/education/master/computer-science/) at [EPFL](https://www.epfl.ch/en/), currently doing research with [Shaobo Cui](https://www.epfl.ch/labs/lia/people/shaobo-cui/) and [Prof. Boi Faltings](https://people.epfl.ch/boi.faltings?lang=en) at [LIA](https://www.epfl.ch/labs/lia/), and with [Marija Šakota](https://people.epfl.ch/marija.sakota?lang=en) and [Prof. Robert West](https://dlab.epfl.ch/people/west/) at [DLab](https://dlab.epfl.ch/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I received my bachelor's degree in [Automation](https://automation.xjtu.edu.cn/) at [Xi'an Jiaotong University](https://en.xjtu.edu.cn/) in July 2022, where I was advised by [Prof. Zhongmin Cai](https://gr.xjtu.edu.cn/web/zmcai/english-version). I was also a research intern at [PSU NLP](https://nlp.psu.edu/), advised by [Prof. Rui Zhang](https://ryanzhumich.github.io/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm keen on various areas of NLP in the era of Large Language Models (LLMs). Specifically, my research interest lies in these fields:
+
+- **Controllable Text Generation** : My research has focused on generating controllable texts for targeted human needs in various applications, including <u>heading generation</u>, <u>closed information extraction</u>, <u>conditional dual generation</u>, and <u>text-to-SQL systems</u>.
+- **Reasoning Capabilities of NLP systems**: Despite the advancements in LLMs, their abilities to perform natural language reasoning are still far from satisfactory. I have been dedicated to <u>commonsense causal reasoning</u>, <u>defeasible reasoning</u>, and <u>temporal reasoning</u>.
+- **Alignment**: Beyond controllable text generation and NLP reasoning, my interest extends to AI alignment, including <u>supervised fine-tuning</u>, <u>instruction-tuning</u>, <u>reinforcement learning (with human feedback)</u>, <u>prompt tuning</u>, and <u>in-context alignments</u>.

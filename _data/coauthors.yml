@@ -1,34 +1,23 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"faltings":
+  - firstname: ["Boi"]
+    url: https://people.epfl.ch/boi.faltings?lang=en/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"bosselut":
+  - firstname: ["Antoine"]
+    url: https://atcbosselut.github.io/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"cui":
+  - firstname: ["Shaobo"]
+    url: https://www.epfl.ch/labs/lia/people/shaobo-cui/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"milikic":
+  - firstname: ["Lazar"]
+    url: https://www.linkedin.com/in/lazar-milikic/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"ismayilzada":
+  - firstname: ["Mete"]
+    url: https://www.mete.is/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"paul":
+  - firstname: ["Debjit"]
+    url: https://debjitpaul.github.io/
