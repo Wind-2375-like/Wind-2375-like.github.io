@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://wind-2375-like.github.io/sitemap.xml
