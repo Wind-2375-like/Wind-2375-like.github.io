@@ -1,8 +1,8 @@
-# al-folio
+# Personal Website
 
 <div align="center">
 
-[![Preview](assets/img/readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
+[![Preview](assets/img/readme_preview/al-folio-preview.png)](https://wind-2375-like.github.io)
 
 **A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
 
