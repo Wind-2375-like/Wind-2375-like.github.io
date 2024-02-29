@@ -2,7 +2,7 @@
 layout: cv
 permalink: /cv/
 title: CV
-nav: true
+nav: false
 nav_order: 5
 cv_pdf: Yiyang_Feng.pdf
 description: You can see my résumé either in the browser or download it as a PDF.
