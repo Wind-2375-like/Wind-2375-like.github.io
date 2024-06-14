@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Check out our new preprint paper [δ-CAUSAL: Exploring Defeasibility in Causal Reasoning](https://arxiv.org/abs/2401.03183) :sparkles: :smile:
+Check out our new preprint paper [δ-CAUSAL: Exploring Defeasibility in Causal Reasoning](https://arxiv.org/abs/2401.03183) (Accepted to ACL 2024 Findings) :sparkles: :smile:
