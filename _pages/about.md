@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a second-year master's student in [Computer Science](https://www.epfl.ch/schools/ic/education/master/computer-science/) at [EPFL](https://www.epfl.ch/en/), currently doing research with [Shaobo Cui](https://www.epfl.ch/labs/lia/people/shaobo-cui/) and [Prof. Boi Faltings](https://people.epfl.ch/boi.faltings?lang=en) at [LIA](https://www.epfl.ch/labs/lia/), and with [Marija Šakota](https://people.epfl.ch/marija.sakota?lang=en) and [Prof. Robert West](https://dlab.epfl.ch/people/west/) at [DLab](https://dlab.epfl.ch/).
+I am a second-year master's student in [Computer Science](https://www.epfl.ch/schools/ic/education/master/computer-science/) at [EPFL](https://www.epfl.ch/en/), currently doing research with [Shaobo Cui](https://www.epfl.ch/labs/lia/people/shaobo-cui/) and [Prof. Boi Faltings](https://people.epfl.ch/boi.faltings?lang=en) at [LIA](https://www.epfl.ch/labs/lia/).
 
 Previously, I received my bachelor's degree in [Automation](https://automation.xjtu.edu.cn/) at [Xi'an Jiaotong University](https://en.xjtu.edu.cn/) in July 2022, where I was advised by [Prof. Zhongmin Cai](https://gr.xjtu.edu.cn/web/zmcai/english-version). I was also a research intern at [PSU NLP](https://nlp.psu.edu/), advised by [Prof. Rui Zhang](https://ryanzhumich.github.io/).
 
