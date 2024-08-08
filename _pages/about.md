@@ -28,4 +28,4 @@ I'm keen on various areas of NLP in the era of Large Language Models (LLMs). Spe
 
 - **Controllable Text Generation** : My research has focused on generating controllable texts for targeted human needs in various applications, including <u>heading generation</u>, <u>dual text generation</u>, and <u>text-to-SQL systems</u>.
 - **Reasoning Capabilities of NLP systems**: Despite the advancements in LLMs, their abilities to perform natural language reasoning are still far from satisfactory. I have been dedicated to <u>causal reasoning</u>, <u>commonsense causal reasoning</u>, and <u>defeasible reasoning</u>.
-- **Trustworthy LLM**: Beyond controllable text generation and NLP reasoning, my interest extends to trustworthy LLM, including <u>hallucination detection and mitigation</u>, <u>robust reasoning</u>, <u>reasoning with confidence (uncertainty)</u>.
+- **Trustworthy LLM**: Beyond controllable text generation and NLP reasoning, my interest extends to trustworthy LLM, including <u>hallucination detection and mitigation</u>, <u>robust reasoning with confidence (uncertainty)</u>.
