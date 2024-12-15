@@ -20,12 +20,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a second-year master's student in [Computer Science](https://www.epfl.ch/schools/ic/education/master/computer-science/) at [EPFL](https://www.epfl.ch/en/), currently doing research with [Shaobo Cui](https://www.epfl.ch/labs/lia/people/shaobo-cui/) and [Prof. Boi Faltings](https://people.epfl.ch/boi.faltings?lang=en) at [LIA](https://www.epfl.ch/labs/lia/).
+I am a third-year master's student in [Computer Science](https://www.epfl.ch/schools/ic/education/master/computer-science/) at [EPFL](https://www.epfl.ch/en/), currently doing research with [Shaobo Cui](https://www.epfl.ch/labs/lia/people/shaobo-cui/) and [Prof. Boi Faltings](https://people.epfl.ch/boi.faltings?lang=en) at [LIA](https://www.epfl.ch/labs/lia/). I also collaborate with [Prof. Jiawei Zhou](https://joezhouai.com/) at [Stony Brook University](https://www.stonybrook.edu/).
 
 Previously, I received my bachelor's degree in [Automation](https://automation.xjtu.edu.cn/) at [Xi'an Jiaotong University](https://en.xjtu.edu.cn/) in July 2022, where I was advised by [Prof. Zhongmin Cai](https://gr.xjtu.edu.cn/web/zmcai/english-version). I was also a research intern at [PSU NLP](https://nlp.psu.edu/), advised by [Prof. Rui Zhang](https://ryanzhumich.github.io/).
 
-I'm keen on various areas of NLP in the era of Large Language Models (LLMs). Specifically, my research interest lies in these fields:
+I'm keen on various areas of Trustworthy Large Language Models (LLMs), with a special focus on:
 
-- **Controllable Text Generation** : My research has focused on generating controllable texts for targeted human needs in various applications, including <u>heading generation</u>, <u>dual text generation</u>, and <u>text-to-SQL systems</u>.
-- **Reasoning Capabilities of NLP systems**: Despite the advancements in LLMs, their abilities to perform natural language reasoning are still far from satisfactory. I have been dedicated to <u>causal reasoning</u>, <u>commonsense causal reasoning</u>, and <u>defeasible reasoning</u>.
-- **Trustworthy LLM**: Beyond controllable text generation and NLP reasoning, my interest extends to trustworthy LLM, including <u>hallucination detection and mitigation</u>, <u>robust reasoning</u>, and <u>reasoning with confidence (uncertainty)</u>.
+- **Trustworthy Causal Reasoning** : Despite the advancements in LLMs, their abilities to perform natural language reasoning are still far from satisfactory. I have been dedicated to <u>defeasibility</u>, <u>uncertainty</u>, and <u>consistency</u> in <u>causal reasoning</u>.
+- **Controllable Text Generation**: My research has focused on generating controllable texts for targeted human needs in various applications, including <u>heading generation</u>, <u>dichotomy</u>, and <u>text-to-SQL systems</u>.
+- **Trustworthy Chain-of-Thought Reasoning**: The o1 model popularized step-wise reasoning; however, its trustworthiness remains unexplored. I am interested in its <u>robustness</u>, <u>hallucination propagation</u>, and <u>uncertainty quantification</u>.
