@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 
 Hello everyone (づ｡◕‿‿◕｡)づ
 
-My name is Yiyang Feng, a first year PhD student from the [Department of Computer Science](https://www.cs.stonybrook.edu/) at [Stony Brook University](https://www.stonybrook.edu/), currently supervised by [Prof. Jiawei Zhou](https://joezhouai.com/), and my academic advisor is [Niranjan Balasubramanian](https://www3.cs.stonybrook.edu/~niranjan/).
+My name is Yiyang Feng, a first year PhD student from the [Department of Computer Science](https://www.cs.stonybrook.edu/) at [Stony Brook University](https://www.stonybrook.edu/), currently supervised by [Prof. Jiawei Zhou](https://joezhouai.com/), and my academic advisor is [Prof. Niranjan Balasubramanian](https://www3.cs.stonybrook.edu/~niranjan/).
 
 In July 2025, I completed my [master's degree in Computer Science](https://www.epfl.ch/schools/ic/education/master/computer-science/) at [EPFL](https://www.epfl.ch/en/). I am very fortunated to be advised by [Shaobo Cui](https://www.epfl.ch/labs/lia/people/shaobo-cui/) and [Prof. Boi Faltings](https://people.epfl.ch/boi.faltings?lang=en) at [LIA](https://www.epfl.ch/labs/lia/), and [Zeming Chen](https://eric11eca.github.io/) and [Prof. Antoine Bosselut](https://atcbosselut.github.io/) at [NLP Lab](https://nlp.epfl.ch/index.html). More years ago, I received my bachelor's degree in [Automation](https://automation.xjtu.edu.cn/) at [Xi'an Jiaotong University](https://en.xjtu.edu.cn/) in July 2022, where I was advised by [Prof. Zhongmin Cai](https://gr.xjtu.edu.cn/web/zmcai/english-version). I was also a research intern at [PSU NLP](https://nlp.psu.edu/), advised by [Prof. Rui Zhang](https://ryanzhumich.github.io/).
 
