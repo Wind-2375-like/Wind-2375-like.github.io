@@ -23,7 +23,7 @@
     abstract = "Large Language Models (LLMs) have demonstrated impressive capabilities in reasoning, positioning them as promising tools for supporting human problem-solving. However, what happens when their performance is affected by *misinformation*, i.e., incorrect inputs introduced by users due to oversights or gaps in knowledge? Such misinformation is prevalent in real-world interactions with LLMs, yet how it propagates within LLMs' reasoning process remains underexplored. Focusing on mathematical reasoning, we present a comprehensive analysis of how misinformation affects intermediate reasoning steps and final answers. We also examine how effectively LLMs can correct misinformation when explicitly instructed to do so. Even with explicit instructions, LLMs succeed less than half the time in rectifyingmisinformation, despite possessing correct internal knowledge, leading to significant accuracy drops (10.02{\%} {--} 72.20{\%}), and the degradation holds with thinking models (4.30{\%} {--} 19.97{\%}). Further analysis shows that applying factual corrections early in the reasoning process most effectively reduces misinformation propagation, and fine-tuning on synthesized data with early-stage corrections significantly improves reasoning factuality. Our work offers a practical approach to mitigating misinformation propagation.",
     annotation={* Equal Contribution},
     pdf={https://aclanthology.org/2025.findings-emnlp.627.pdf},
-    preview={misinformation.jpg},
+    preview={misinformation.png},
     selected={true},
     website={https://misinfo-prop.github.io}
 }
@@ -70,7 +70,7 @@
     ISBN = "979-8-89176-251-0",
     abstract = "Conditional dichotomy, the contrast between two outputs conditioned on the same context, is vital for applications such as debate, defeasible inference, and causal reasoning. Existing methods that rely on semantic similarity often fail to capture the nuanced oppositional dynamics essential for these applications. Motivated by these limitations, we introduce a novel task, Conditional Dichotomy Quantification (ConDQ), which formalizes the direct measurement of conditional dichotomy and provides carefully constructed datasets covering debate, defeasible natural language inference, and causal reasoning scenarios. To address this task, we develop the Dichotomy-oriented Geometric Embedding (DoGE) framework, which leverages complex-valued embeddings and a dichotomous objective to model and quantify these oppositional relationships effectively. Extensive experiments validate the effectiveness and versatility of DoGE, demonstrating its potential in understanding and quantifying conditional dichotomy across diverse NLP applications. Our code and datasets are available at https://github.com/cui-shaobo/conditional-dichotomy-quantification.",
     pdf={https://aclanthology.org/2025.acl-long.383.pdf},
-    preview={nuance.jpg},
+    preview={dichotomy.png},
     selected={true}
 }
 
@@ -95,6 +95,6 @@
 
 @article{cui2024nuancemattersprobingepistemic, title={Nuance Matters: Probing Epistemic Consistency in Causal Reasoning}, volume={39}, url={https://ojs.aaai.org/index.php/AAAI/article/view/34542}, DOI={10.1609/aaai.v39i22.34542}, abstract={Previous research on causal reasoning often overlooks the subtleties crucial to understanding causal reasoning. To address this gap, our study introduces the concept of causal epistemic consistency, which focuses on the self-consistency of Large Language Models (LLMs) in differentiating intermediates with nuanced differences in causal reasoning. We propose a suite of novel metrics – intensity ranking concordance, cross-group position agreement, and intra-group clustering – to evaluate LLMs on this front. Through extensive empirical studies on 21 high-profile LLMs, including GPT-4, Claude3, and LLaMA3-70B, we have favoring evidence that current models struggle to maintain epistemic consistency in identifying the polarity and intensity of intermediates in causal reasoning. Additionally, we explore the potential of using internal token probabilities as an auxiliary tool to maintain causal epistemic consistency. In summary, our study bridges a critical gap in AI research by investigating the self-consistency over fine-grained intermediates involved in causal reasoning.}, number={22}, booktitle={Proceedings of the AAAI 2025, Long Paper}, author={Cui, Shaobo and Li, Junyou and Mouchel, Luca and Feng, Yiyang and Faltings, Boi}, year={2025}, month={Apr.}, pages={23715-23723}, 
 pdf={https://ojs.aaai.org/index.php/AAAI/article/view/34542/36697},
-preview={nuancematter.jpg},
+preview={nuancematter.png},
 selected={false}
 }
