@@ -6,17 +6,16 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yiyang
 middle_name: 
 last_name: Feng
-email: yiyang.feng@epfl.ch
+email: yiyang.feng@stonybrook.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  MSc Student in Computer Science @ EPFL
+  PhD Student in Computer Science @ SBU
 footer_text: >
-  竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。
-keywords: NLP, ML, AI # add your own keywords or leave empty
+  PhD Student in Computer Science @ SBU
+keywords: Reasoning, LLM, NLP # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://wind-2375-like.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 

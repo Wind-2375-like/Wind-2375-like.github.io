@@ -20,12 +20,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a third-year master's student in [Computer Science](https://www.epfl.ch/schools/ic/education/master/computer-science/) at [EPFL](https://www.epfl.ch/en/), currently doing research with [Shaobo Cui](https://www.epfl.ch/labs/lia/people/shaobo-cui/) and [Prof. Boi Faltings](https://people.epfl.ch/boi.faltings?lang=en) at [LIA](https://www.epfl.ch/labs/lia/). I also collaborate with [Prof. Jiawei Zhou](https://joezhouai.com/) at [Stony Brook University](https://www.stonybrook.edu/).
+Hello everyone (づ｡◕‿‿◕｡)づ
 
-Previously, I received my bachelor's degree in [Automation](https://automation.xjtu.edu.cn/) at [Xi'an Jiaotong University](https://en.xjtu.edu.cn/) in July 2022, where I was advised by [Prof. Zhongmin Cai](https://gr.xjtu.edu.cn/web/zmcai/english-version). I was also a research intern at [PSU NLP](https://nlp.psu.edu/), advised by [Prof. Rui Zhang](https://ryanzhumich.github.io/).
+My name is Yiyang Feng, a first year PhD student from the [Department of Computer Science](https://www.cs.stonybrook.edu/) at [Stony Brook University](https://www.stonybrook.edu/), currently supervised by [Prof. Jiawei Zhou](https://joezhouai.com/), and my academic advisor is [Niranjan Balasubramanian](https://www3.cs.stonybrook.edu/~niranjan/).
+
+In July 2025, I completed my [master's degree in Computer Science](https://www.epfl.ch/schools/ic/education/master/computer-science/) at [EPFL](https://www.epfl.ch/en/). I am very fortunated to be advised by [Shaobo Cui](https://www.epfl.ch/labs/lia/people/shaobo-cui/) and [Prof. Boi Faltings](https://people.epfl.ch/boi.faltings?lang=en) at [LIA](https://www.epfl.ch/labs/lia/), and [Zeming Chen](https://eric11eca.github.io/) and [Prof. Antoine Bosselut](https://atcbosselut.github.io/) at [NLP Lab](https://nlp.epfl.ch/index.html). More years ago, I received my bachelor's degree in [Automation](https://automation.xjtu.edu.cn/) at [Xi'an Jiaotong University](https://en.xjtu.edu.cn/) in July 2022, where I was advised by [Prof. Zhongmin Cai](https://gr.xjtu.edu.cn/web/zmcai/english-version). I was also a research intern at [PSU NLP](https://nlp.psu.edu/), advised by [Prof. Rui Zhang](https://ryanzhumich.github.io/).
 
 I'm keen on various areas of Trustworthy Large Language Models (LLMs), with a special focus on:
 
+- **Trustworthy Chain-of-Thought Reasoning**: The o1 model popularized step-wise reasoning; however, its trustworthiness remains unexplored. I am interested in its <u>robustness</u>, <u>hallucination propagation</u>, and <u>uncertainty quantification</u>.
 - **Trustworthy Causal Reasoning** : Despite the advancements in LLMs, their abilities to perform natural language reasoning are still far from satisfactory. I have been dedicated to <u>defeasibility</u>, <u>uncertainty</u>, and <u>consistency</u> in <u>causal reasoning</u>.
 - **Controllable Text Generation**: My research has focused on generating controllable texts for targeted human needs in various applications, including <u>heading generation</u>, <u>dichotomy</u>, and <u>text-to-SQL systems</u>.
-- **Trustworthy Chain-of-Thought Reasoning**: The o1 model popularized step-wise reasoning; however, its trustworthiness remains unexplored. I am interested in its <u>robustness</u>, <u>hallucination propagation</u>, and <u>uncertainty quantification</u>.

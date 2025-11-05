@@ -1,5 +1,32 @@
 ---
 ---
+@inproceedings{feng-etal-2025-unraveling,
+    title = "Unraveling Misinformation Propagation in {LLM} Reasoning",
+    author = "Yiyang Feng* and
+      Yichen Wang* and
+      Cui, Shaobo  and
+      Faltings, Boi  and
+      Lee, Mina  and
+      Zhou, Jiawei",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of EMNLP 2025, Long Paper",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.627/",
+    pages = "11683--11707",
+    ISBN = "979-8-89176-335-7",
+    abstract = "Large Language Models (LLMs) have demonstrated impressive capabilities in reasoning, positioning them as promising tools for supporting human problem-solving. However, what happens when their performance is affected by *misinformation*, i.e., incorrect inputs introduced by users due to oversights or gaps in knowledge? Such misinformation is prevalent in real-world interactions with LLMs, yet how it propagates within LLMs' reasoning process remains underexplored. Focusing on mathematical reasoning, we present a comprehensive analysis of how misinformation affects intermediate reasoning steps and final answers. We also examine how effectively LLMs can correct misinformation when explicitly instructed to do so. Even with explicit instructions, LLMs succeed less than half the time in rectifyingmisinformation, despite possessing correct internal knowledge, leading to significant accuracy drops (10.02{\%} {--} 72.20{\%}), and the degradation holds with thinking models (4.30{\%} {--} 19.97{\%}). Further analysis shows that applying factual corrections early in the reasoning process most effectively reduces misinformation propagation, and fine-tuning on synthesized data with early-stage corrections significantly improves reasoning factuality. Our work offers a practical approach to mitigating misinformation propagation.",
+    annotation={* Equal Contribution},
+    pdf={https://aclanthology.org/2025.findings-emnlp.627.pdf},
+    preview={misinformation.jpg},
+    selected={true},
+    website={https://misinfo-prop.github.io}
+}
 
 @inproceedings{cui-etal-2024-unveiling,
     title = {Unveiling the Art of Heading Design: A Harmonious Blend of Summarization, Neology, and Algorithm},
@@ -7,7 +34,7 @@
     editor = "Ku, Lun-Wei  and
       Martins, Andre  and
       Srikumar, Vivek",
-    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    booktitle = "Findings of ACL 2024, Long Paper",
     month = aug,
     year = "2024",
     address = "Bangkok, Thailand and virtual meeting",
@@ -21,13 +48,39 @@
     selected={true}
 }
 
+@inproceedings{cui-etal-2025-conditional,
+    title = "Conditional Dichotomy Quantification via Geometric Embedding",
+    author = "Cui, Shaobo  and
+      Liu, Wenqing  and
+      Feng, Yiyang  and
+      Zhou, Jiawei  and
+      Faltings, Boi",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of ACL 2025, Long Papers, Oral Paper (~2.5% of all papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.383/",
+    doi = "10.18653/v1/2025.acl-long.383",
+    pages = "7765--7791",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Conditional dichotomy, the contrast between two outputs conditioned on the same context, is vital for applications such as debate, defeasible inference, and causal reasoning. Existing methods that rely on semantic similarity often fail to capture the nuanced oppositional dynamics essential for these applications. Motivated by these limitations, we introduce a novel task, Conditional Dichotomy Quantification (ConDQ), which formalizes the direct measurement of conditional dichotomy and provides carefully constructed datasets covering debate, defeasible natural language inference, and causal reasoning scenarios. To address this task, we develop the Dichotomy-oriented Geometric Embedding (DoGE) framework, which leverages complex-valued embeddings and a dichotomous objective to model and quantify these oppositional relationships effectively. Extensive experiments validate the effectiveness and versatility of DoGE, demonstrating its potential in understanding and quantifying conditional dichotomy across diverse NLP applications. Our code and datasets are available at https://github.com/cui-shaobo/conditional-dichotomy-quantification.",
+    pdf={https://aclanthology.org/2025.acl-long.383.pdf},
+    preview={nuance.jpg},
+    selected={true}
+}
+
 @inproceedings{cui2024deltacausal,
     author={Shaobo Cui and Lazar Milikic and Yiyang Feng and Mete Ismayilzada and Debjit Paul and Antoine Bosselut and Boi Faltings},
     title = "Exploring Defeasibility in Causal Reasoning",
     editor = "Ku, Lun-Wei  and
       Martins, Andre  and
       Srikumar, Vivek",
-    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    booktitle = "Findings of ACL 2024, Long Paper",
     month = aug,
     year = "2024",
     address = "Bangkok, Thailand and virtual meeting",
@@ -37,20 +90,11 @@
     abstract = "Defeasibility in causal reasoning implies that the causal relationship between cause and effect can be strengthened or weakened. Namely, the causal strength between cause and effect should increase or decrease with the incorporation of strengthening arguments (supporters) or weakening arguments (defeaters), respectively. However, existing works ignore defeasibility in causal reasoning and fail to evaluate existing causal strength metrics in defeasible settings. In this work, we present $\delta$-CAUSAL, the first benchmark dataset for studying defeasibility in causal reasoning. $\delta$-CAUSAL includes around 11K events spanning ten domains, featuring defeasible causality pairs, namely, cause-effect pairs accompanied by supporters and defeaters. We further show that current causal strength metrics fail to reflect the change of causal strength with the incorporation of supporters or defeaters in $\delta$-CAUSAL. To this end, we propose CESAR (Causal Embedding aSsociation with Attention Rating), a metric that measures causal strength based on token-level causal relationships. CESAR achieves a significant 69.7{\%} relative improvement over existing metrics, increasing from 47.2{\%} to 80.1{\%} in capturing the causal strength change brought by supporters and defeaters. We further demonstrate even Large Language Models (LLMs) like GPT-3.5 still lag 4.5 and 10.7 points behind humans in generating supporters and defeaters, emphasizing the challenge posed by $\delta$-CAUSAL.",
     pdf={https://aclanthology.org/2024.findings-acl.384.pdf},
     preview={delta-causal.jpg},
-    selected={true}
+    selected={false}
 }
 
-@article{cui2024nuancemattersprobingepistemic,
-    title={Nuance Matters: Probing Epistemic Consistency in Causal Reasoning}, 
-    author={Shaobo Cui and Junyou Li and Luca Mouchel and Yiyang Feng and Boi Faltings},
-    year={2024},
-    eprint={2409.00103},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL},
-    url={https://arxiv.org/abs/2409.00103},
-    abstract={Previous research on causal reasoning often overlooks the subtleties crucial to understanding causal reasoning. To address this gap, our study introduces the concept of causal epistemic consistency, which focuses on the self-consistency of Large Language Models (LLMs) in differentiating intermediates with nuanced differences in causal reasoning. We propose a suite of novel metrics – intensity ranking concordance, cross-group position agreement, and intra-group clustering – to evaluate LLMs on this front. Through extensive empirical studies on 21 high-profile LLMs, including GPT-4, Claude3, and LLaMA3-70B, we have favoring evidence that current models struggle to maintain epistemic consistency in identifying the polarity and intensity of intermediates in causal reasoning. Additionally, we explore the potential of using internal token probabilities as an auxiliary tool to maintain causal epistemic consistency. In summary, our study bridges a critical gap in AI research by investigating the self-consistency over fine-grained intermediates involved in causal reasoning.},
-    arxiv={2409.00103},
-    pdf={https://arxiv.org/pdf/2409.00103.pdf},
-    preview={nuancematter.jpg},
-    selected={true}
+@article{cui2024nuancemattersprobingepistemic, title={Nuance Matters: Probing Epistemic Consistency in Causal Reasoning}, volume={39}, url={https://ojs.aaai.org/index.php/AAAI/article/view/34542}, DOI={10.1609/aaai.v39i22.34542}, abstract={Previous research on causal reasoning often overlooks the subtleties crucial to understanding causal reasoning. To address this gap, our study introduces the concept of causal epistemic consistency, which focuses on the self-consistency of Large Language Models (LLMs) in differentiating intermediates with nuanced differences in causal reasoning. We propose a suite of novel metrics – intensity ranking concordance, cross-group position agreement, and intra-group clustering – to evaluate LLMs on this front. Through extensive empirical studies on 21 high-profile LLMs, including GPT-4, Claude3, and LLaMA3-70B, we have favoring evidence that current models struggle to maintain epistemic consistency in identifying the polarity and intensity of intermediates in causal reasoning. Additionally, we explore the potential of using internal token probabilities as an auxiliary tool to maintain causal epistemic consistency. In summary, our study bridges a critical gap in AI research by investigating the self-consistency over fine-grained intermediates involved in causal reasoning.}, number={22}, booktitle={Proceedings of the AAAI 2025, Long Paper}, author={Cui, Shaobo and Li, Junyou and Mouchel, Luca and Feng, Yiyang and Faltings, Boi}, year={2025}, month={Apr.}, pages={23715-23723}, 
+pdf={https://ojs.aaai.org/index.php/AAAI/article/view/34542/36697},
+preview={nuancematter.jpg},
+selected={false}
 }
