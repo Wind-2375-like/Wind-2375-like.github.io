@@ -2,32 +2,26 @@
 layout: about
 title: About
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-# subtitle: A student researcher keen on Natural Language Processing (NLP).
+native_name: 冯乙洋
+cv_pdf: Yiyang_Feng.pdf
 
 profile:
-  align: right
   image: profile.jpg
-  image_circular: true # crops the image to make it circular
-#   more_info: >
-#     <p>555 your office number</p>
-#     <p>123 your address street</p>
-#     <p>Your City, State 12345</p>
+  contact: # lines shown under the photo, above the email
+    - Ph.D. Student
+    - Computer Science
+    - Stony Brook University
 
 news: true # includes a list of news items
+research: true # includes the research tabs (_data/research.yml)
 latest_posts: false # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: true # includes social icons under the photo
 ---
 
 Hello everyone (づ｡◕‿‿◕｡)づ
 
-My name is Yiyang Feng, a first year PhD student from the [Department of Computer Science](https://www.cs.stonybrook.edu/) at [Stony Brook University](https://www.stonybrook.edu/), currently supervised by [Prof. Jiawei Zhou](https://joezhouai.com/), and my academic advisor is [Prof. Niranjan Balasubramanian](https://www3.cs.stonybrook.edu/~niranjan/).
+I'm a second-year PhD student in Computer Science at [Stony Brook University](https://www.cs.stonybrook.edu/), advised by [Prof. Jiawei Zhou](https://joezhouai.com/). I'm also glad to collaborate with [Prof. Niranjan Balasubramanian](https://www3.cs.stonybrook.edu/~niranjan/). I work on long-horizon reasoning and LLM agents.
 
-In July 2025, I completed my [master's degree in Computer Science](https://www.epfl.ch/schools/ic/education/master/computer-science/) at [EPFL](https://www.epfl.ch/en/). I am very fortunated to be advised by [Shaobo Cui](https://www.epfl.ch/labs/lia/people/shaobo-cui/) and [Prof. Boi Faltings](https://people.epfl.ch/boi.faltings?lang=en) at [LIA](https://www.epfl.ch/labs/lia/), and [Zeming Chen](https://eric11eca.github.io/) and [Prof. Antoine Bosselut](https://atcbosselut.github.io/) at [NLP Lab](https://nlp.epfl.ch/index.html). More years ago, I received my bachelor's degree in [Automation](https://automation.xjtu.edu.cn/) at [Xi'an Jiaotong University](https://en.xjtu.edu.cn/) in July 2022, where I was advised by [Prof. Zhongmin Cai](https://gr.xjtu.edu.cn/web/zmcai/english-version). I was also a research intern at [PSU NLP](https://nlp.psu.edu/), advised by [Prof. Rui Zhang](https://ryanzhumich.github.io/).
+I received my M.S. in Computer Science from [EPFL](https://www.epfl.ch/en/) in 2025, advised by [Shaobo Cui](https://cui-shaobo.github.io/) and [Prof. Boi Faltings](https://people.epfl.ch/boi.faltings?lang=en) at [LIA](https://www.epfl.ch/labs/lia/), and by [Zeming Chen](https://eric11eca.github.io/) and [Prof. Antoine Bosselut](https://atcbosselut.github.io/) at the [NLP Lab](https://nlp.epfl.ch/). Before that, I received my B.Eng. in Automation from [Xi'an Jiaotong University](https://en.xjtu.edu.cn/), where I was fortunate to be advised by [Prof. Zhongmin Cai](https://gr.xjtu.edu.cn/web/zmcai/english-version), and by [Prof. Rui Zhang](https://ryanzhumich.github.io/) during a research internship at [PSU NLP](https://nlp.psu.edu/).
 
-I'm keen on various areas of Trustworthy Large Language Models (LLMs), with a special focus on:
-
-- **Trustworthy Chain-of-Thought Reasoning**: The o1 model popularized step-wise reasoning; however, its trustworthiness remains unexplored. I am interested in its <u>robustness</u>, <u>hallucination propagation</u>, and <u>uncertainty quantification</u>.
-- **Trustworthy Causal Reasoning** : Despite the advancements in LLMs, their abilities to perform natural language reasoning are still far from satisfactory. I have been dedicated to <u>defeasibility</u>, <u>uncertainty</u>, and <u>consistency</u> in <u>causal reasoning</u>.
-- **Controllable Text Generation**: My research has focused on generating controllable texts for targeted human needs in various applications, including <u>heading generation</u>, <u>dichotomy</u>, and <u>text-to-SQL systems</u>.
+<p class="looking">I am looking for research internships for summer 2027.</p>

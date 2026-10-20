@@ -1,0 +1,97 @@
+{% assign research = site.data.research %}
+<section class="research" id="research" aria-label="Research">
+  <h2 class="section-label">Research</h2>
+
+  <div class="rtabs" role="tablist">
+    {% for t in research.topics %}
+      <button
+        class="rtab{% if forloop.first %} active{% endif %}"
+        type="button"
+        role="tab"
+        id="tab-{{ t.id }}"
+        aria-controls="panel-{{ t.id }}"
+        aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"
+        {% unless forloop.first %}
+          tabindex="-1"
+        {% endunless %}
+      >
+        {{ t.label }}
+      </button>
+    {% endfor %}
+    <button class="rtab rtab-all" type="button" role="tab" id="tab-all" aria-controls="panel-all" aria-selected="false" tabindex="-1">
+      {{ research.all.label }}
+    </button>
+  </div>
+
+  {% for t in research.topics %}
+    <div class="rpanel" id="panel-{{ t.id }}" role="tabpanel" aria-labelledby="tab-{{ t.id }}" {% unless forloop.first %}hidden{% endunless %}>
+      <div class="rblock">
+        <h3 class="rblock-title">{{ t.question }}</h3>
+        <div class="rblock-body">{{ t.body | markdownify }}</div>
+        <a class="rblock-jump" href="#featured-{{ t.id }}">Featured work <span aria-hidden="true">&darr;</span></a>
+      </div>
+
+      <div class="featured" id="featured-{{ t.id }}">
+        <h4 class="featured-label">Featured work</h4>
+        <div class="publications">
+          {% bibliography --group_by none --query @*[topic={{ t.id }}] %}
+        </div>
+        {% for p in t.ongoing %}
+          <div class="pub pub-ongoing">
+            <div class="pub-aside"><div class="pub-tag">In progress</div></div>
+            <div class="pub-body">
+              <div class="title">{{ p.title }}</div>
+              <div class="tldr">{{ p.text }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+
+  <div class="rpanel" id="panel-all" role="tabpanel" aria-labelledby="tab-all" hidden>
+    <div class="rblock">
+      <h3 class="rblock-title">{{ research.all.question }}</h3>
+      <div class="rblock-body">{{ research.all.body | markdownify }}</div>
+      <a class="rblock-jump" href="#featured-all">Papers <span aria-hidden="true">&darr;</span></a>
+    </div>
+    <div class="featured" id="featured-all">
+      {% include pub_groups.liquid %}
+    </div>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var tabs = Array.prototype.slice.call(document.querySelectorAll(".rtab"));
+    if (!tabs.length) return;
+
+    function select(tab, focus) {
+      tabs.forEach(function (t) {
+        var on = t === tab;
+        t.classList.toggle("active", on);
+        t.setAttribute("aria-selected", on ? "true" : "false");
+        t.tabIndex = on ? 0 : -1;
+        document.getElementById(t.getAttribute("aria-controls")).hidden = !on;
+      });
+      if (focus) tab.focus();
+    }
+
+    tabs.forEach(function (tab, i) {
+      tab.addEventListener("click", function () {
+        select(tab, false);
+        if (history.replaceState) history.replaceState(null, "", "#" + tab.id.replace("tab-", ""));
+      });
+      tab.addEventListener("keydown", function (e) {
+        var j = e.key === "ArrowRight" ? i + 1 : e.key === "ArrowLeft" ? i - 1 : null;
+        if (j === null) return;
+        e.preventDefault();
+        select(tabs[(j + tabs.length) % tabs.length], true);
+      });
+    });
+
+    // Open a tab from the URL, e.g. /#all or /#experience
+    var fromHash = document.getElementById("tab-" + location.hash.slice(1));
+    if (fromHash && fromHash.classList.contains("rtab")) select(fromHash, false);
+  })();
+</script>

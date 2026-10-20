@@ -1,0 +1,42 @@
+# Research tabs on the home page (_includes/research.liquid).
+# Each topic shows `question` + `body` (Markdown) in a block, then its featured work:
+# papers in _bibliography/papers.bib whose `topic` field equals the topic `id`,
+# followed by any `ongoing` items listed here.
+
+topics:
+  - id: reasoning
+    label: Long-Horizon Reasoning
+    question: Does information carry through multi-step reasoning the way it should?
+    body: >-
+      Whatever enters a model's context early shapes every later reasoning step. I study what
+      happens when it conflicts with what the model learned in pretraining: a user's mistaken
+      premise spreads through the reasoning even when the model knows the correct fact, and correct,
+      updated facts can make multi-step reasoning worse than giving none. Earlier, at EPFL, I worked
+      on causal reasoning: how supporting and defeating evidence should change causal strength.
+
+  - id: agents
+    label: LLM Agents
+    question: What should an agent carry forward across tasks and long trajectories?
+    body: >-
+      Agents on long tasks keep deciding what to carry forward: which experience to reuse on the next
+      task, and which parts of a growing context the next step will need. In a controlled study across
+      three domains and eleven models, I found that skills written per subtask lift agents above their
+      no-memory baseline on average, while skills written per whole task mostly push them below it.
+      I am also working on context management for multi-agent systems of small language models.
+    ongoing:
+      # Under double-blind review: keep it to the research question; no title, venue, authors, or results.
+      - title: Context management for multi-agent systems of small language models
+        text: >-
+          When an orchestrator splits a long task into subtasks and a summarizer compresses each
+          one, what does the summary have to keep for the subtasks that come later, and which tasks
+          should not be split at all?
+
+all:
+  id: all
+  label: All Papers
+  question: Everything I have co-authored
+  body: >-
+    First- and co-first-author papers first, then co-authored ones, each newest first. Besides reasoning and agents, this includes a survey of LLM self-improvement
+    (TMLR), evaluation work on summarization faithfulness and role-playing benchmarks, and earlier
+    work on controllable generation (LOgogram, a benchmark for writing paper headings with
+    acronyms). * denotes equal contribution.

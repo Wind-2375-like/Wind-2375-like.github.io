@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have successfully passed my master's thesis defense! :sparkles: Many thanks for the supervision from Zeming and Antoine!
+Defended my master's thesis at EPFL. Many thanks to Zeming and Antoine for their supervision.

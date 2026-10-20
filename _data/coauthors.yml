@@ -53,3 +53,20 @@
 "mouchel":
   - firstname: ["Luca"]
     url: https://www.linkedin.com/in/luca-mouchel-2817321a0/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=ch
+
+"chen":
+  - firstname: ["Zeming"]
+    url: https://eric11eca.github.io/
+
+"wu":
+  - firstname: ["Haotian"]
+    url: https://scholar.google.com/citations?user=18dzNuIAAAAJ&hl=en
+    papers: ["feng-etal-2026-tracking"] # a different Haotian Wu leads FURINA
+
+"bijoy":
+  - firstname: ["Biddut Sarker", "Biddut"]
+    url: https://bijoy-sust.github.io/
+
+"balasubramanian":
+  - firstname: ["Niranjan"]
+    url: https://www3.cs.stonybrook.edu/~niranjan/

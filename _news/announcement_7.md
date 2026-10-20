@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Check out our new preprint paper [Nuance Matters: Probing Epistemic Consistency in Causal Reasoning](https://arxiv.org/abs/2409.00103) :sparkles: :smile:
+New preprint: [Nuance Matters: Probing Epistemic Consistency in Causal Reasoning](https://arxiv.org/abs/2409.00103).

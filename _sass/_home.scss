@@ -1,0 +1,421 @@
+/*******************************************************************************
+ * Home page: intro row (bio | photo | news) and research tabs.
+ ******************************************************************************/
+
+$home-photo-col: 180px;
+$home-news-col: 230px;
+
+// The theme's 3rem top margin is too much under a fixed navbar.
+body.fixed-top-nav .container[role="main"] {
+  margin-top: 1rem !important;
+}
+
+.home {
+  .section-label {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0 0 0.6rem;
+
+    a {
+      color: inherit;
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// Intro row
+
+.intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) $home-photo-col $home-news-col;
+  column-gap: 28px;
+  transition: grid-template-columns 0.25s ease;
+}
+
+.intro-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  margin-bottom: 0.6rem;
+
+  .post-title {
+    margin: 0;
+    font-size: 2.3rem;
+    line-height: 1.15;
+  }
+
+  .native-name {
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+}
+
+.cv-link {
+  display: inline-block;
+  padding: 2px 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--global-text-color);
+  border: 1px solid var(--global-text-color);
+  border-radius: 3px;
+
+  &:hover {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    text-decoration: none;
+  }
+}
+
+.intro-text {
+  p {
+    font-size: 0.97rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+  }
+
+  p.looking {
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+}
+
+.intro-photo {
+  padding-top: 0.3rem;
+  text-align: center;
+
+  .profile-img {
+    display: block;
+    width: $home-photo-col;
+    height: $home-photo-col;
+    margin: 0 auto 14px;
+    object-fit: cover;
+    object-position: 50% 25%;
+    border-radius: 50%;
+  }
+}
+
+.intro-contact {
+  margin-top: 16px;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--global-text-color-light);
+
+  span,
+  a {
+    display: block;
+  }
+
+  span {
+    color: var(--global-text-color-light);
+  }
+
+  a {
+    color: var(--global-text-color);
+    word-break: break-all;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+.intro-social {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px 13px;
+  font-size: 1.3rem;
+
+  a {
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+// News: borderless and scrollable; the column takes the height of the bio.
+
+.intro-news {
+  position: relative;
+  min-height: 240px;
+  padding-top: 0.45rem;
+
+  .news-scroll {
+    position: absolute;
+    top: 2.9rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    padding-right: 8px;
+    scrollbar-width: thin;
+    -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent);
+    mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent);
+
+    &.at-end {
+      -webkit-mask-image: none;
+      mask-image: none;
+    }
+  }
+}
+
+.news-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.news-fold,
+.news-unfold {
+  padding: 0;
+  font: inherit;
+  color: var(--global-text-color-light);
+  background: none;
+  border: 0;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--global-theme-color);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+}
+
+.news-fold {
+  padding: 0 4px;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.news-unfold {
+  display: none;
+}
+
+// Folded: the News column shrinks to a thin strip on the right, and the bio and photo take the space.
+@media (min-width: 992px) {
+  .intro.news-folded {
+    grid-template-columns: minmax(0, 1fr) $home-photo-col 30px;
+
+    .news-head,
+    .news-scroll {
+      display: none;
+    }
+
+    .news-unfold {
+      position: absolute;
+      top: 0.45rem;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding-top: 0.2rem;
+      font-size: 1.6rem;
+      line-height: 1;
+      border-left: 1px solid var(--global-divider-color);
+    }
+
+    .news-unfold-label {
+      writing-mode: vertical-rl;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .news-fold {
+    display: none;
+  }
+}
+
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin-bottom: 0.85rem;
+  }
+
+  time {
+    display: block;
+    margin-bottom: 1px;
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+
+  .news-text {
+    font-size: 0.875rem;
+    line-height: 1.45;
+  }
+}
+
+// Research tabs
+
+.research {
+  margin-top: 0.9rem;
+
+  > .section-label {
+    margin-bottom: 0.35rem;
+  }
+}
+
+.rtabs {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.rtab {
+  margin-bottom: -1px;
+  padding: 0.45rem 0.5rem 0.4rem;
+  font: inherit;
+  font-size: 1.02rem;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+  color: var(--global-text-color-light);
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--global-text-color);
+  }
+
+  &.active {
+    color: var(--global-text-color);
+    border-bottom-color: var(--global-theme-color);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: -2px;
+  }
+}
+
+.rblock {
+  margin-top: 0.7rem;
+  padding: 0.85rem 1.4rem 0.75rem;
+  background-color: #f6f6f6;
+  border-radius: 3px;
+
+  .rblock-title {
+    margin: 0 0 0.35rem;
+    font-size: 1.12rem;
+    font-weight: 500;
+  }
+
+  .rblock-body p {
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+    line-height: 1.55;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.rblock-jump {
+  display: inline-block;
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+// Small uppercase labels: "Featured work", and the paper groups on Publications / All Papers.
+.featured-label {
+  margin-bottom: 0.9rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+
+.publications .pub-group-label {
+  margin-top: 2.25rem;
+}
+
+.featured {
+  margin-top: 1.5rem;
+  scroll-margin-top: 72px;
+
+  .pub-ongoing {
+    margin-bottom: 1.75rem;
+  }
+}
+
+// Tablet: bio and photo side by side, news below.
+@media (max-width: 991.98px) {
+  .intro {
+    grid-template-columns: minmax(0, 1fr) $home-photo-col;
+    row-gap: 1.5rem;
+  }
+
+  .intro-news {
+    grid-column: 1 / -1;
+    min-height: 0;
+
+    .news-scroll {
+      position: static;
+      max-height: 300px;
+    }
+  }
+}
+
+// Phone: one column, photo first, tabs in a 2x2 grid.
+@media (max-width: 575.98px) {
+  .intro {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .intro-photo {
+    order: -1;
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+    }
+  }
+
+  .intro-header .post-title {
+    font-size: 2rem;
+  }
+
+  .rblock {
+    padding: 1rem 1.1rem 0.9rem;
+  }
+}

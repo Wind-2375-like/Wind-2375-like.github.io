@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I’m happy to share that I’m starting a new position as Research Assistant at [LIA](https://www.epfl.ch/labs/lia/) :tada:
+Joined [LIA](https://www.epfl.ch/labs/lia/) at EPFL as a research assistant.

@@ -1,0 +1,6 @@
+<div class="publications">
+  <h4 class="featured-label">First or co-first author</h4>
+  {% bibliography --group_by none --query @*[lead=true] %}
+  <h4 class="featured-label pub-group-label">Co-author</h4>
+  {% bibliography --group_by none --query @*[lead=false] %}
+</div>

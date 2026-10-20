@@ -2,10 +2,12 @@
 layout: cv
 permalink: /cv/
 title: CV
-nav: false
-nav_order: 5
+nav: true
+nav_order: 3
 cv_pdf: Yiyang_Feng.pdf
-description: You can see my résumé either in the browser or download it as a PDF.
+description: Last updated October 2026.
 ---
 
-<iframe src="/assets/pdf/Yiyang_Feng.pdf" width="100%" height="600" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+<p><a href="/assets/pdf/Yiyang_Feng.pdf">Download the PDF</a></p>
+
+<iframe src="/assets/pdf/Yiyang_Feng.pdf" title="CV of Yiyang Feng" width="100%" height="900" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
