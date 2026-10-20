@@ -50,7 +50,7 @@
           {%- for coauthor in site.data.coauthors[clean_last_name] -%}
             {%- comment -%} `papers` limits a link to some bib keys, for different people with the same name {%- endcomment -%}
             {%- if coauthor.firstname contains author.first -%}
-              {%- if coauthor.papers == nil or coauthor.papers contains entry.key -%}
+              {%- if coauthor.papers == null or coauthor.papers contains entry.key -%}
                 {%- assign coauthor_url = coauthor.url -%}
                 {%- break -%}
               {%- endif -%}

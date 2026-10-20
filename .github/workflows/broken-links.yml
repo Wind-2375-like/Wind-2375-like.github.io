@@ -48,5 +48,9 @@ jobs:
         uses: lycheeverse/lychee-action@v1.9.0
         with:
           fail: true
-          # removed md files that include liquid tags
-          args: --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --verbose --no-progress './**/*.md' './**/*.html'
+          # removed md files that include liquid tags, plus the theme's sample posts/pages and docs (URL excludes are in lychee.toml)
+          args: >-
+            --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md
+            --exclude-path _posts/_posts_template --exclude-path _pages/about_einstein.md
+            --exclude-path CUSTOMIZE.md --exclude-path FAQ.md --exclude-path INSTALL.md --exclude-path CONTRIBUTING.md
+            --verbose --no-progress './**/*.md' './**/*.html'

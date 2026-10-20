@@ -24,7 +24,15 @@
   </div>
 
   {% for t in research.topics %}
-    <div class="rpanel" id="panel-{{ t.id }}" role="tabpanel" aria-labelledby="tab-{{ t.id }}" {% unless forloop.first %}hidden{% endunless %}>
+    <div
+      class="rpanel"
+      id="panel-{{ t.id }}"
+      role="tabpanel"
+      aria-labelledby="tab-{{ t.id }}"
+      {% unless forloop.first %}
+        hidden
+      {% endunless %}
+    >
       <div class="rblock">
         <h3 class="rblock-title">{{ t.question }}</h3>
         <div class="rblock-body">{{ t.body | markdownify }}</div>
@@ -63,27 +71,27 @@
 
 <script>
   (function () {
-    var tabs = Array.prototype.slice.call(document.querySelectorAll(".rtab"));
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('.rtab'));
     if (!tabs.length) return;
 
     function select(tab, focus) {
       tabs.forEach(function (t) {
         var on = t === tab;
-        t.classList.toggle("active", on);
-        t.setAttribute("aria-selected", on ? "true" : "false");
+        t.classList.toggle('active', on);
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
         t.tabIndex = on ? 0 : -1;
-        document.getElementById(t.getAttribute("aria-controls")).hidden = !on;
+        document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
       });
       if (focus) tab.focus();
     }
 
     tabs.forEach(function (tab, i) {
-      tab.addEventListener("click", function () {
+      tab.addEventListener('click', function () {
         select(tab, false);
-        if (history.replaceState) history.replaceState(null, "", "#" + tab.id.replace("tab-", ""));
+        if (history.replaceState) history.replaceState(null, '', '#' + tab.id.replace('tab-', ''));
       });
-      tab.addEventListener("keydown", function (e) {
-        var j = e.key === "ArrowRight" ? i + 1 : e.key === "ArrowLeft" ? i - 1 : null;
+      tab.addEventListener('keydown', function (e) {
+        var j = e.key === 'ArrowRight' ? i + 1 : e.key === 'ArrowLeft' ? i - 1 : null;
         if (j === null) return;
         e.preventDefault();
         select(tabs[(j + tabs.length) % tabs.length], true);
@@ -91,7 +99,7 @@
     });
 
     // Open a tab from the URL, e.g. /#all or /#experience
-    var fromHash = document.getElementById("tab-" + location.hash.slice(1));
-    if (fromHash && fromHash.classList.contains("rtab")) select(fromHash, false);
+    var fromHash = document.getElementById('tab-' + location.hash.slice(1));
+    if (fromHash && fromHash.classList.contains('rtab')) select(fromHash, false);
   })();
 </script>

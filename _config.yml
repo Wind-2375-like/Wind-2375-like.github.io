@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Yiyang
-middle_name: 
+middle_name:
 last_name: Feng
 email: yiyang.feng@stonybrook.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -24,8 +24,8 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 # -----------------------------------------------------------------------------
 
 # code highlighter theme
-highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_light: github # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_dark: native # https://github.com/jwarby/jekyll-pygments-themes
 
 # repo color theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
@@ -318,7 +318,33 @@ enable_publication_badges:
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
-  [abbr, abstract, altmetric, annotation, arxiv, award, bibtex_show, blog, code, data, html, lead, pdf, poster, preview, selected, slides, supp, talk, thread, tldr, topic, venue, video, website]
+  [
+    abbr,
+    abstract,
+    altmetric,
+    annotation,
+    arxiv,
+    award,
+    bibtex_show,
+    blog,
+    code,
+    data,
+    html,
+    lead,
+    pdf,
+    poster,
+    preview,
+    selected,
+    slides,
+    supp,
+    talk,
+    thread,
+    tldr,
+    topic,
+    venue,
+    video,
+    website,
+  ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 300 # leave blank to always show all authors
@@ -456,7 +482,6 @@ vega-embed:
 vega-lite:
   version: "5.16.3"
   integrity: "sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw="
-
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------

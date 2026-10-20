@@ -4,3 +4,8 @@ assets/css/main.scss
 assets/plotly/demo.html
 lighthouse_results/**
 _posts/2015-10-20-math.md
+
+# Post content (Markdown with math and tables) is not formatted
+_posts/**
+# Google Search Console verification file
+google0879c044eadafc0e.html

@@ -8,7 +8,9 @@ layout: default
         <h1 class="post-title">
           <span class="font-weight-bold">{{ site.first_name }}</span>
           {{ site.last_name }}
-          {% if page.native_name %}<span class="native-name">({{ page.native_name }})</span>{% endif %}
+          {% if page.native_name -%}
+            <span class="native-name">({{ page.native_name }})</span>
+          {%- endif %}
         </h1>
         {% if page.cv_pdf %}
           <a class="cv-link" href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}">CV</a>
@@ -33,7 +35,9 @@ layout: default
         {% endif %}
         {% if page.profile.contact %}
           <div class="intro-contact">
-            {% for line in page.profile.contact %}<span>{{ line }}</span>{% endfor %}
+            {% for line in page.profile.contact -%}
+              <span>{{ line }}</span>
+            {%- endfor %}
             <a href="mailto:{{ site.email | encode_email }}">{{ site.email }}</a>
           </div>
         {% endif %}
@@ -75,44 +79,44 @@ layout: default
 
 <script>
   (function () {
-    var intro = document.querySelector(".intro");
-    var box = document.querySelector(".news-scroll");
+    var intro = document.querySelector('.intro');
+    var box = document.querySelector('.news-scroll');
     if (!intro || !box) return;
 
     // Fade the bottom of the news list only while there is more to scroll.
     function updateFade() {
-      box.classList.toggle("at-end", box.scrollTop + box.clientHeight >= box.scrollHeight - 4);
+      box.classList.toggle('at-end', box.scrollTop + box.clientHeight >= box.scrollHeight - 4);
     }
-    box.addEventListener("scroll", updateFade, { passive: true });
-    window.addEventListener("resize", updateFade);
+    box.addEventListener('scroll', updateFade, { passive: true });
+    window.addEventListener('resize', updateFade);
 
     // Fold the whole News column to the right; the bio and photo widen to fill the space.
-    var fold = intro.querySelector(".news-fold");
-    var unfold = intro.querySelector(".news-unfold");
+    var fold = intro.querySelector('.news-fold');
+    var unfold = intro.querySelector('.news-unfold');
     function setFolded(folded, remember) {
-      intro.classList.toggle("news-folded", folded);
-      fold.setAttribute("aria-expanded", folded ? "false" : "true");
-      unfold.setAttribute("aria-expanded", folded ? "false" : "true");
+      intro.classList.toggle('news-folded', folded);
+      fold.setAttribute('aria-expanded', folded ? 'false' : 'true');
+      unfold.setAttribute('aria-expanded', folded ? 'false' : 'true');
       if (remember) {
         try {
-          localStorage.setItem("newsFolded", folded ? "1" : "0");
+          localStorage.setItem('newsFolded', folded ? '1' : '0');
         } catch (e) {}
       }
       updateFade();
     }
     // Keep keyboard focus on the visible toggle (detail is 0 for keyboard-activated clicks).
-    fold.addEventListener("click", function (e) {
+    fold.addEventListener('click', function (e) {
       setFolded(true, true);
       if (e.detail === 0) unfold.focus();
     });
-    unfold.addEventListener("click", function (e) {
+    unfold.addEventListener('click', function (e) {
       setFolded(false, true);
       if (e.detail === 0) fold.focus();
     });
     var saved = null;
     try {
-      saved = localStorage.getItem("newsFolded");
+      saved = localStorage.getItem('newsFolded');
     } catch (e) {}
-    setFolded(saved === "1", false);
+    setFolded(saved === '1', false);
   })();
 </script>
