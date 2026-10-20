@@ -54,3 +54,9 @@ jobs:
             --exclude-path _posts/_posts_template --exclude-path _pages/about_einstein.md
             --exclude-path CUSTOMIZE.md --exclude-path FAQ.md --exclude-path INSTALL.md --exclude-path CONTRIBUTING.md
             --verbose --no-progress './**/*.md' './**/*.html'
+
+      - name: Report broken links 📝
+        # Show each failing link as an annotation on the commit, next to the check
+        if: ${{ failure() }}
+        run: |
+          awk '/^### Errors in /{f=substr($0,15)} /^\* \[/{sub(/^\* /,""); print "::error title=Broken link in " f "::" $0}' lychee/out.md | head -50
