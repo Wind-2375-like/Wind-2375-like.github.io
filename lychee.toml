@@ -10,6 +10,7 @@ exclude = [
   "^https?://(www\\.)?(x|twitter)\\.com",
   "^https?://openreview\\.net",
   "^https?://(www\\.)?stackoverflow\\.com",
+  "^https?://(www\\.)?unsplash\\.com",
   # XML namespace URI inside an inline SVG (a reading note), not a link
   "^https?://c2pa\\.org/manifest",
 ]
