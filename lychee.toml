@@ -1,0 +1,15 @@
+# Settings for the source link checker (.github/workflows/broken-links.yml).
+# lychee reads this file automatically; the workflow passes the file globs.
+
+# Path excludes are passed in the workflow: lychee 0.14 lets --exclude-path override this file.
+
+# Sites that reject automated requests from CI runners (403/429/999) even when the link works.
+exclude = [
+  "^https?://(www\\.)?linkedin\\.com",
+  "^https?://scholar\\.google\\.com",
+  "^https?://(www\\.)?(x|twitter)\\.com",
+  "^https?://openreview\\.net",
+  "^https?://(www\\.)?stackoverflow\\.com",
+  # XML namespace URI inside an inline SVG (a reading note), not a link
+  "^https?://c2pa\\.org/manifest",
+]
