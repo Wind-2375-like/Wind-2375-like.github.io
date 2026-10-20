@@ -1,18 +1,19 @@
 # Research tabs on the home page (_includes/research.liquid).
 # Each topic shows `question` + `body` (Markdown) in a block, then its featured work:
-# papers in _bibliography/papers.bib whose `topic` field equals the topic `id`,
+# papers in _bibliography/papers.bib whose `topic` field equals the topic `id`
+# (first/co-first-author papers first, then co-authored ones, each newest first),
 # followed by any `ongoing` items listed here.
 
 topics:
   - id: reasoning
     label: Long-Horizon Reasoning
-    question: Does information carry through multi-step reasoning the way it should?
+    question: Do LLMs reason correctly with the information and constraints they are given?
     body: >-
       Whatever enters a model's context early shapes every later reasoning step. I study what
       happens when it conflicts with what the model learned in pretraining: a user's mistaken
       premise spreads through the reasoning even when the model knows the correct fact, and correct,
       updated facts can make multi-step reasoning worse than giving none. Earlier, at EPFL, I worked
-      on causal reasoning: how supporting and defeating evidence should change causal strength.
+      on controllable generation under symbolic constraints and on causal reasoning.
 
   - id: agents
     label: LLM Agents

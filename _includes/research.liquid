@@ -42,7 +42,8 @@
       <div class="featured" id="featured-{{ t.id }}">
         <h4 class="featured-label">Featured work</h4>
         <div class="publications">
-          {% bibliography --group_by none --query @*[topic={{ t.id }}] %}
+          {% bibliography --group_by none --query @*[topic={{ t.id }},lead=true] %}
+          {% bibliography --group_by none --query @*[topic={{ t.id }},lead=false] %}
         </div>
         {% for p in t.ongoing %}
           <div class="pub pub-ongoing">
